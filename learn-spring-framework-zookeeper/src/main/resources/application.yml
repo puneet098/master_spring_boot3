@@ -5,8 +5,7 @@ spring:
     zookeeper:
       discovery:
         enabled: true
-	connect-string: localhost:2181
+      connect-string: localhost:2181
 logging:
   level:
     org.apache.zookeeper.ClientCnxn: WARN
-
