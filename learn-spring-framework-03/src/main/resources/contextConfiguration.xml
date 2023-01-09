@@ -5,5 +5,17 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
          <!-- bean definitions here -->
-
+	<bean id="name" class="java.lang.String">
+		<constructor-arg value="puneet"/>
+	</bean>
+	<bean id="age" class="java.lang.Integer">
+		<constructor-arg value='35'/>
+	</bean>
+	
+	<context:component-scan base-package="com.udemyProject.learnSpringFramework.game"/>
+	
+	<bean id="game" class="com.udemyProject.learnSpringFramework.game.PacManGame"/>
+	<bean id="gameRunner" class="com.udemyProject.learnSpringFramework.game.GameRunner">
+		<constructor-arg ref="game"/>
+	</bean>
 </beans>

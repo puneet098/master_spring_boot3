@@ -1,4 +1,4 @@
-package com.udemyProject.learnSpringFramework.examples.dataservice;
+package com.udemyProject.learnSpringFramework.examples.c1;
 
 import java.util.Arrays;
 

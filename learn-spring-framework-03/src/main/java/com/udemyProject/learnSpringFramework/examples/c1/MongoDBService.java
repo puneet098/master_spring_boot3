@@ -1,4 +1,4 @@
-package com.udemyProject.learnSpringFramework.examples.dataservice;
+package com.udemyProject.learnSpringFramework.examples.c1;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
